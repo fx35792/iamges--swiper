@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>swiper</title>
+	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="swiper.min.css">
+	<script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="swiper.min.js"></script>
+	<style type="text/css">
+
+	
+	.re-content{padding:10px 0;position:relative;overflow:hidden;height:80px}
+	.re-content #re-content-body{position:absolute;left:0;width:100%;}
+	#re-content-body .swiper-slide{width:auto;}
+	.re-content img{float:left;width:120px;height:60px;margin-right:5px}
+	</style>
+</head>
+<body>
+	<div class="re-content">
+	    <div id="re-content-body" class="swiper-all swiper-container-horizontal swiper-container-free-mode">    
+	        <div class="re-content-item swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<a href=""><img src="tj-img.png"></a>		        	
+		        </div>
+		        <div class="swiper-slide">
+		        	<a href=""><img src="tj-img.png"></a>		        	
+		        </div>
+		        <div class="swiper-slide">
+		        	<a href=""><img src="tj-img.png"></a>		        	
+		        </div>
+		        <div class="swiper-slide">
+		        	<a href=""><img src="tj-img.png"></a>		        	
+		        </div>
+		        <div class="swiper-slide">
+		        	<a href=""><img src="tj-img.png"></a>		        	
+		        </div>
+		        <div class="swiper-slide">
+		        	<a href=""><img src="tj-img.png"></a>		        	
+		        </div>
+		        <!-- 
+	            <a href=""><img class="swiper-slide" src="tj-img.png"></a>
+	            <a href=""><img class="swiper-slide" src="tj-img.png"></a>
+	            <a href=""><img class="swiper-slide" src="tj-img.png"></a>
+	            <a href=""><img class="swiper-slide" src="tj-img.png"></a>
+	            <a href=""><img class="swiper-slide" src="tj-img.png"></a>  --> 
+	        </div>      
+	    </div>
+	</div>
+	<script type="text/javascript">
+		window.onload = function() {
+		  var mySwiper1 = new Swiper('#re-content-body',{
+		      freeMode : true,
+		      slidesPerView : 'auto',
+		  });
+		}
+
+	</script>
+</body>
+</html>
